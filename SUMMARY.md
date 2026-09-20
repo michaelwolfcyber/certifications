@@ -1,0 +1,15 @@
+# Table of contents
+
+* [certifications](README.md)
+* [ISC2 Certified in Cybersecurity (CC) — 2026](isc2-cc/README.md)
+  * [Domain 1 — Security Principles](isc2-cc/domain-01-security-principles.md)
+  * [Domain 2 — Security Governance](isc2-cc/domain-02-security-governance.md)
+  * [Domain 3 — Identity and Access Management (IAM) Concepts](isc2-cc/domain-03-iam.md)
+  * [Domain 4 — Networking and Cloud Security Concepts](isc2-cc/domain-04-networking-cloud.md)
+  * [Domain 5 — Security Operations and Incident Response](isc2-cc/domain-05-security-operations-ir.md)
+* [ITIL 4 Foundation in IT Service Management](itil-4-foundation.md)
+* [LPI Linux Essentials](linux-essentials.md)
+* [CompTIA Security+](security-plus/README.md)
+  * [Security+ Study Notes (SY0-701)](security-plus/notes.md)
+* [education](education/README.md)
+  * [B.S. Computer Science — Western Governors University](education/wgu-bs-computer-science.md)
