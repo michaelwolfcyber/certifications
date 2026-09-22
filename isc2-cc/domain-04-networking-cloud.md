@@ -1,158 +1,363 @@
-# Domain 4 — Networking and Cloud Security Concepts
+# Domain 4 --- Networking and Cloud Security Concepts
 
-**Exam weight: 21.3%**
+**Exam weight: 21.3%**\
+**Current exam outline effective: September 1, 2026**
 
-## 4.1 Network Security
+## 2026 Exam Objectives
 
-### OSI Model
+### 4.1 Understand network security
+
+-   Network security concepts
+-   OSI model
+-   TCP/IP model
+-   IPv4
+-   IPv6
+-   VPN
+-   Firewalls
+-   Ports/applications
+-   Wireless
+-   Embedded systems
+-   ICS
+-   IoT
+
+### 4.2 Understand network security architecture
+
+-   Network segmentation
+-   Firewall zones
+-   VLAN
+-   Micro-segmentation
+-   Defense in Depth
+-   Zero Trust
+
+### 4.3 Understand cloud security
+
+-   Cloud characteristics
+-   Service models
+-   Deployment models
+-   Shared security model
+
+------------------------------------------------------------------------
+
+# 4.1 Network Security
+
+## OSI Model
 
 Know the seven layers:
 
-1. Physical
-2. Data Link
-3. Network
-4. Transport
-5. Session
-6. Presentation
-7. Application
+    Layer Name
+  ------- --------------
+        7 Application
+        6 Presentation
+        5 Session
+        4 Transport
+        3 Network
+        2 Data Link
+        1 Physical
 
-### TCP/IP Model
+### Easy Memory
+
+**All People Seem To Need Data Processing**
+
+Application → Presentation → Session → Transport → Network → Data Link →
+Physical
+
+------------------------------------------------------------------------
+
+## TCP/IP Model
 
 Know the major TCP/IP layers and how they relate to the OSI model.
 
-### IPv4 and IPv6
+Common four-layer representation:
 
-Understand the basic purpose of IP addressing and the differences between IPv4 and IPv6.
+1.  Application
+2.  Transport
+3.  Internet
+4.  Network Access
 
-### VPN
+------------------------------------------------------------------------
 
-A Virtual Private Network creates a protected communication path across an untrusted or shared network.
+## IPv4 and IPv6
 
-### Ports
+### IPv4
+
+Uses 32-bit IP addresses.
+
+### IPv6
+
+Uses 128-bit IP addresses and provides a much larger address space.
+
+For CC, understand the basic purpose of IP addressing and the difference
+in address size.
+
+------------------------------------------------------------------------
+
+## VPN
+
+A **Virtual Private Network (VPN)** creates a protected communication
+path across an untrusted or shared network.
+
+**VPN = protected path over an untrusted network**
+
+------------------------------------------------------------------------
+
+## Ports
 
 Ports help identify network services and applications.
 
-Examples worth recognizing:
-- HTTP — 80
-- HTTPS — 443
-- SSH — 22
-- DNS — 53
-- RDP — 3389
+Know common examples:
 
-### Firewalls
+  Service     Port
+  --------- ------
+  HTTP          80
+  HTTPS        443
+  SSH           22
+  DNS           53
+  RDP         3389
 
-Firewalls enforce traffic rules based on defined criteria such as addresses, ports, protocols, or applications.
+> The exam outline specifically connects firewalls with ports and
+> applications.
 
-### Wireless
+------------------------------------------------------------------------
 
-Understand common Wi-Fi security concepts and the risks associated with wireless communications.
+## Firewalls
 
-### Bluetooth
+Firewalls enforce traffic rules based on defined criteria such as: -
+Addresses - Ports - Protocols - Applications
 
-Bluetooth provides short-range wireless communication and introduces security considerations related to pairing, authentication, and unauthorized devices.
+**Firewall = controls permitted network traffic**
 
-### Embedded Systems
+------------------------------------------------------------------------
 
-Understand the security concerns of:
-- Industrial Control Systems (ICS)
-- Internet of Things (IoT)
+## Wireless
 
-These systems can have availability, safety, legacy-system, and segmentation concerns.
+Understand common Wi-Fi security concepts and the risks associated with
+wireless communications.
 
----
+## Bluetooth
 
-## 4.2 Network Security Architecture
+Bluetooth provides short-range wireless communication.
 
-### Network Segmentation
+Security considerations include: - Pairing - Authentication -
+Unauthorized devices
+
+------------------------------------------------------------------------
+
+## Embedded Systems
+
+Understand security concerns associated with: - **Industrial Control
+Systems (ICS)** - **Internet of Things (IoT)**
+
+Potential concerns include: - Availability - Safety - Legacy systems -
+Segmentation
+
+------------------------------------------------------------------------
+
+# 4.2 Network Security Architecture
+
+## Network Segmentation
 
 Segmentation divides a network into separate security zones.
 
-Examples:
-- DMZ
-- VLAN
-- VPN
-- Micro-segmentation
+Examples: - **DMZ** - **VLAN** - **VPN** - **Micro-segmentation**
 
-Segmentation can limit lateral movement and reduce the impact of compromise.
+### Why Segment?
 
-### Defense in Depth
+Segmentation can: - Limit lateral movement - Isolate systems - Reduce
+the impact of compromise
 
-Use multiple layers of security rather than relying on one control.
+------------------------------------------------------------------------
 
-### Network Access Control (NAC)
+## Firewall Zones
 
-NAC can control whether devices are permitted to access network resources based on defined requirements.
+Firewalls can separate network areas into different security zones with
+different access rules.
 
-### Zero Trust
+------------------------------------------------------------------------
 
-Zero Trust is based on the idea that access should not be trusted simply because a user or device is inside a network.
+## VLAN
 
-Core ideas include:
-- Verify explicitly
-- Use least privilege
-- Continuously evaluate access
+A **Virtual Local Area Network (VLAN)** logically separates network
+traffic even when systems share physical network infrastructure.
 
----
+------------------------------------------------------------------------
 
-## 4.3 Cloud Security
+## Micro-Segmentation
 
-### Cloud Characteristics
+Micro-segmentation applies segmentation at a more granular level,
+allowing tighter controls between individual workloads, systems, or
+applications.
 
-Know the common characteristics:
-- Broad network access
-- Rapid elasticity
-- Measured service
-- On-demand self-service
-- Resource pooling
+------------------------------------------------------------------------
 
-### Service Models
+## Defense in Depth
 
-#### IaaS — Infrastructure as a Service
+**Defense in Depth** uses multiple layers of security instead of relying
+on a single control.
 
-The provider supplies infrastructure such as compute, storage, and networking.
+Example layers can include: - Physical controls - Network controls -
+Endpoint controls - Identity controls - Monitoring
 
-#### PaaS — Platform as a Service
+**Defense in depth = multiple layers**
 
-The provider supplies a platform for developing and running applications.
+------------------------------------------------------------------------
 
-#### SaaS — Software as a Service
+## Zero Trust
+
+Zero Trust is based on the principle that access should not
+automatically be trusted simply because a user or device is inside a
+network.
+
+Core ideas: - Verify explicitly - Use least privilege - Continuously
+evaluate access
+
+**Zero Trust = don't automatically trust; verify.**
+
+------------------------------------------------------------------------
+
+# 4.3 Cloud Security
+
+## Cloud Characteristics
+
+Know:
+
+-   **Broad network access**
+-   **Rapid elasticity**
+-   **Measured service**
+-   **On-demand self-service**
+-   **Resource pooling**
+
+### Broad Network Access
+
+Cloud capabilities can be accessed over networks using supported
+devices.
+
+### Rapid Elasticity
+
+Resources can be scaled up or down as needed.
+
+### Measured Service
+
+Resource usage can be monitored and measured.
+
+### On-Demand Self-Service
+
+Customers can provision resources without requiring direct provider
+interaction for every request.
+
+### Resource Pooling
+
+Provider resources are pooled to serve multiple customers.
+
+------------------------------------------------------------------------
+
+# Cloud Service Models
+
+## IaaS --- Infrastructure as a Service
+
+The provider supplies infrastructure such as: - Compute - Storage -
+Networking
+
+**IaaS = infrastructure**
+
+## PaaS --- Platform as a Service
+
+The provider supplies a platform for developing and running
+applications.
+
+**PaaS = platform**
+
+## SaaS --- Software as a Service
 
 The provider delivers the application to the customer.
 
-### Deployment Models
+**SaaS = software**
 
-Know the basic concepts of:
-- Public cloud
-- Private cloud
-- Hybrid cloud
+------------------------------------------------------------------------
 
-### Shared Security Model
+# Cloud Deployment Models
 
-Cloud security responsibilities are divided between the cloud provider and the customer.
+## Public Cloud
 
-The exact division depends on the service model.
+Cloud infrastructure is provided for use by customers through a cloud
+provider.
 
-**Key idea:** Moving to the cloud does not automatically transfer every security responsibility to the provider.
+## Private Cloud
 
-### SLA
+Cloud infrastructure is dedicated to a particular organization.
 
-A Service-Level Agreement defines agreed service expectations between parties.
+## Hybrid Cloud
 
-### MSP
+Combines public and private cloud environments.
 
-A Managed Service Provider delivers managed technology or security services to customers.
+------------------------------------------------------------------------
 
----
+# Shared Security Model
 
-## Quick Recall
+Cloud security responsibilities are divided between the cloud provider
+and the customer.
 
-- OSI = 7 layers
-- Firewall = controls network traffic
-- VPN = protected communication path
-- Segmentation = divide network/security zones
-- Defense in depth = multiple layers
-- Zero Trust = verify rather than automatically trust
-- IaaS = infrastructure
-- PaaS = platform
-- SaaS = software
-- Shared security = provider + customer responsibilities
+The exact division depends on: - Service model - Provider - Customer
+responsibilities
+
+> Moving to the cloud does **not** automatically transfer every security
+> responsibility to the provider.
+
+------------------------------------------------------------------------
+
+## SLA
+
+A **Service-Level Agreement (SLA)** defines agreed service expectations
+between parties.
+
+## MSP
+
+A **Managed Service Provider (MSP)** delivers managed technology or
+security services to customers.
+
+------------------------------------------------------------------------
+
+# Quick Recall
+
+  Concept              Remember
+  -------------------- ----------------------------------------------
+  OSI                  7-layer model
+  TCP/IP               Network communication model
+  IPv4                 32-bit addressing
+  IPv6                 128-bit addressing
+  VPN                  Protected path over shared/untrusted network
+  Firewall             Controls network traffic
+  Port                 Identifies network service/application
+  Segmentation         Divide security zones
+  VLAN                 Logical network separation
+  Micro-segmentation   Granular workload/system separation
+  Defense in depth     Multiple security layers
+  Zero Trust           Verify rather than automatically trust
+  IaaS                 Infrastructure
+  PaaS                 Platform
+  SaaS                 Software
+  Public cloud         Provider cloud for broad customer use
+  Private cloud        Dedicated organization environment
+  Hybrid cloud         Combination
+  Shared security      Provider + customer responsibilities
+  SLA                  Agreed service expectations
+  MSP                  Managed services provider
+
+# Active Recall
+
+1.  Name the seven OSI layers.
+2.  How does TCP/IP relate to OSI?
+3.  What is the basic difference between IPv4 and IPv6?
+4.  What does a VPN provide?
+5.  Why are ports important?
+6.  What does a firewall control?
+7.  What security concerns can wireless introduce?
+8.  What are ICS and IoT?
+9.  Why is network segmentation useful?
+10. What is a VLAN?
+11. What is micro-segmentation?
+12. What is defense in depth?
+13. What is the basic idea behind Zero Trust?
+14. What are the five cloud characteristics in the outline?
+15. Explain IaaS, PaaS, and SaaS.
+16. Explain public, private, and hybrid cloud.
+17. What is the shared security model?

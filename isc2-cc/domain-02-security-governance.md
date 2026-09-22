@@ -1,52 +1,99 @@
-# Domain 2 — Security Governance
+# Domain 2 --- Security Governance
 
-**Exam weight: 17.3%**
+**Exam weight: 17.3%**\
+**Current exam outline effective: September 1, 2026**
 
-## 2.1 Governance, Risk, and Compliance (GRC)
+## 2026 Exam Objectives
 
-### GRC
+### 2.1 Plan Governance, Risk, and Compliance (GRC)
 
-GRC brings together:
+-   Purpose
+-   Importance
+-   Frameworks and tools
 
-- **Governance:** Direction, accountability, and oversight
-- **Risk:** Identifying and managing uncertainty
-- **Compliance:** Meeting applicable requirements
+### 2.2 Understand redundancy
+
+-   Business Continuity (BC)
+-   Disaster Recovery (DR)
+
+### 2.3 Understand security awareness
+
+-   Organizational culture
+    -   Importance of security
+    -   Security leadership
+-   Concepts
+    -   Social engineering
+    -   Password protection
+    -   Phishing
+
+### 2.4 Measure cybersecurity effectiveness
+
+-   Key metrics
+-   Key Risk Indicators (KRI)
+-   Dashboards
+-   Scorecards
+-   Reports
+
+------------------------------------------------------------------------
+
+# 2.1 Plan Governance, Risk, and Compliance (GRC)
+
+## GRC
+
+**GRC = Governance, Risk, and Compliance.**
+
+  Area         Meaning
+  ------------ ------------------------------------------
+  Governance   Direction, accountability, and oversight
+  Risk         Identifying and managing uncertainty
+  Compliance   Meeting applicable requirements
 
 ### Purpose
 
-GRC helps an organization align security activities with business objectives, legal requirements, and acceptable risk.
+GRC helps align cybersecurity activities with: - Business objectives -
+Organizational responsibilities - Risk management - Applicable
+requirements - Security decision-making
 
 ### Importance
 
-Effective GRC can help an organization:
-- Establish accountability
-- Manage risk consistently
-- Demonstrate compliance
-- Make informed security decisions
+Effective GRC can help an organization: - Establish accountability -
+Manage risk consistently - Demonstrate compliance - Make informed
+security decisions
 
 ### Frameworks and Tools
 
-Frameworks and tools can provide structured methods for managing cybersecurity and risk.
+Frameworks provide structured methods for managing cybersecurity and
+risk.
 
----
+Tools can support implementing, tracking, measuring, and reporting GRC
+activities.
 
-## 2.2 Redundancy
+**Governance = direction/oversight**\
+**Risk = uncertainty**\
+**Compliance = requirements**
 
-Redundancy means having additional resources or components available so that failure of one component does not necessarily cause an outage.
+------------------------------------------------------------------------
 
-Examples:
-- Redundant servers
-- Multiple network paths
-- Power redundancy
-- Backup systems
+# 2.2 Understand Redundancy
 
-Redundancy supports availability and business continuity.
+## Redundancy
 
----
+**Redundancy** means having additional resources or components so that
+failure of one does not necessarily cause an outage.
 
-## 2.3 Business Continuity (BC)
+Examples: - Redundant servers - Multiple network paths - Power
+redundancy - Backup systems
 
-Business continuity focuses on maintaining or restoring critical business functions when disruption occurs.
+Redundancy supports: - Availability - Resilience - Business continuity
+
+> **Key idea: avoid a single point of failure.**
+
+------------------------------------------------------------------------
+
+## Business Continuity (BC)
+
+**Business Continuity** focuses on maintaining or restoring critical
+business functions during a disruption.
 
 ### Purpose
 
@@ -54,98 +101,205 @@ Keep essential business operations functioning.
 
 ### Importance
 
-Organizations depend on critical services. Interruptions can cause financial, operational, legal, and reputational consequences.
+Interruptions can cause: - Financial consequences - Operational
+consequences - Legal consequences - Reputational consequences
 
 ### Components
 
-Know concepts such as:
-- Critical business functions
-- Recovery priorities
-- Alternate processes
-- Personnel and communications
-- Dependencies
+Know: - Critical business functions - Recovery priorities - Alternate
+processes - Personnel and communications - Dependencies
 
----
+### Business Continuity Plan (BCP)
 
-## 2.4 Disaster Recovery (DR)
+A BCP documents how an organization maintains or restores critical
+business operations during a disruption.
 
-Disaster recovery focuses on restoring systems, infrastructure, and services after a disruptive event.
+Existing ISC2 training also provides useful BCP concepts: - Team members
+and contact information - Backup team members - Immediate response
+procedures/checklists - Notification/call trees - Management guidance -
+Plan activation procedures - Critical supply-chain contacts
+
+------------------------------------------------------------------------
+
+## Disaster Recovery (DR)
+
+**Disaster Recovery** focuses on restoring systems, infrastructure, and
+services after a disruptive event.
 
 ### Purpose
 
-Recover technology and services following a disaster or major disruption.
+Recover technology and services following a disaster or major
+disruption.
 
 ### Importance
 
-DR helps reduce downtime and supports restoration of critical capabilities.
+DR helps reduce downtime and restore critical capabilities.
 
 ### Components
 
-Know concepts such as:
-- Backups
-- Recovery locations
-- Restoration procedures
-- Recovery priorities
-- Testing
+Know: - Backups - Recovery locations - Restoration procedures - Recovery
+priorities - Testing
 
-### BC vs DR
+### Disaster Recovery Plan (DRP)
 
-**Business Continuity:** Keep the business operating.
+A DRP documents how technology and services will be restored.
 
-**Disaster Recovery:** Restore technology and services.
+Existing ISC2 training also covers: - Executive summary - Recovery
+guidelines - Technical recovery guidance - Copies for critical DR team
+members - Recovery checklists
 
----
+### BC vs. DR
 
-## 2.5 Security Awareness
+**BC = keep the business operating.**\
+**DR = restore technology and services.**
 
-Security awareness helps people understand security responsibilities and recognize common threats.
+------------------------------------------------------------------------
 
-### Organizational Culture
+# 2.3 Understand Security Awareness
 
-Security is not only a technology problem. Leadership, policies, training, and everyday behavior all influence security.
+## Organizational Culture
 
-### Common Concepts
+Security is an organizational responsibility, not only a technology
+problem.
 
-- Social engineering
-- Phishing
-- Password protection
-- Safe handling of information
-- Reporting suspicious activity
+Culture is influenced by: - Leadership - Policies - Training - Everyday
+behavior - Employee awareness
 
----
+### Importance of Security
 
-## 2.6 Measure Cybersecurity Effectiveness
+Users should understand: - Why security matters - Their security
+responsibilities - Why security requirements exist - Why suspicious
+activity should be reported
 
-Organizations need measurements to understand whether security activities are working.
+### Security Leadership
 
-### Metrics
+Leadership helps establish security as an organizational priority and
+reinforces expectations and accountability.
 
-Metrics provide measurable information about performance or activity.
+------------------------------------------------------------------------
 
-### Key Risk Indicators (KRIs)
+## Social Engineering
 
-KRIs help indicate changing levels of risk.
+**Social engineering** uses manipulation or deception to influence
+people into taking an action or revealing information.
 
-### Dashboards
+Common manipulation themes: - Trust - Fear - Urgency - Authority -
+Curiosity
 
-Dashboards present security information in an easily understood format.
+## Phishing
 
-### Scorecards
+**Phishing** is a social engineering technique using deceptive
+communications to trick users into unsafe actions or disclosure.
 
-Scorecards organize measurements to communicate performance against objectives.
+Examples: - Clicking malicious links - Opening malicious attachments -
+Revealing credentials - Providing sensitive information
 
-### Reports
+**Social engineering = broad manipulation category**\
+**Phishing = common deceptive-communication technique**
 
-Reports provide security information to stakeholders and decision-makers.
+## Password Protection
 
----
+Security awareness should teach users to: - Protect passwords and
+credentials - Follow organizational password requirements - Avoid
+sharing credentials - Report suspected compromise
 
-## Quick Recall
+------------------------------------------------------------------------
 
-- GRC = Governance, Risk, Compliance
-- BC = keep critical business functions operating
-- DR = restore systems/services
-- Redundancy = additional capacity/components for resilience
-- Awareness = people and security behavior
-- Metric = measurement
-- KRI = indicator related to risk
+# 2.4 Measure Cybersecurity Effectiveness
+
+## Metrics
+
+A **metric** is a measurable value used to track activity, performance,
+or effectiveness.
+
+Metrics help: - Measure security activity - Track performance - Identify
+trends - Support decisions - Communicate results
+
+## Key Risk Indicators (KRIs)
+
+A **KRI** is an indicator used to show changes in risk.
+
+**Metric = measurement**\
+**KRI = risk-focused indicator**
+
+## Dashboards
+
+Dashboards present important security information in an easily
+understood format.
+
+**Dashboard = quick view**
+
+## Scorecards
+
+Scorecards organize measurements to communicate performance against
+objectives.
+
+**Scorecard = performance against objectives**
+
+## Reports
+
+Reports communicate security information to stakeholders and
+decision-makers.
+
+**Report = communicated security information**
+
+### Comparison
+
+  Concept     Think
+  ----------- --------------------------------
+  Metric      Measurement
+  KRI         Risk indicator
+  Dashboard   Quick visual/current view
+  Scorecard   Performance against objectives
+  Report      Communicated information
+
+------------------------------------------------------------------------
+
+# Domain Boundary: Incident Response
+
+Incident Response is **not a primary Domain 2 topic in the 2026
+outline**.
+
+It is now part of **Domain 5 --- Security Operations and Incident
+Response**.
+
+Keep your older ISC2 Incident Response material; it is still useful, but
+study it under Domain 5.
+
+------------------------------------------------------------------------
+
+# Domain 2 Quick Recall
+
+-   **GRC** = Governance, Risk, Compliance
+-   **Governance** = direction and oversight
+-   **Risk** = uncertainty
+-   **Compliance** = requirements
+-   **Redundancy** = extra resources/components
+-   **BC** = keep critical business functions operating
+-   **DR** = restore systems/services
+-   **Social engineering** = manipulate people
+-   **Phishing** = deceptive communication
+-   **Metric** = measurement
+-   **KRI** = risk indicator
+-   **Dashboard** = quick view
+-   **Scorecard** = performance against objectives
+-   **Report** = communicated security information
+
+# Active Recall
+
+1.  What does GRC stand for?
+2.  What is the purpose of GRC?
+3.  Why are frameworks and tools used?
+4.  What is redundancy?
+5.  How does redundancy support availability?
+6.  What is the difference between BC and DR?
+7.  What is the purpose of a BCP?
+8.  What is the purpose of a DRP?
+9.  Why does security culture matter?
+10. What role does leadership play?
+11. What is social engineering?
+12. What is phishing?
+13. What is a metric?
+14. What is a KRI?
+15. What is the difference between a dashboard and a scorecard?
+16. Where is Incident Response primarily covered in the 2026 exam?

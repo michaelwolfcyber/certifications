@@ -1,28 +1,25 @@
-# ISC2 Certified in Cybersecurity (CC) — 2026
+# ISC2 Certified in Cybersecurity (CC) --- 2026 Rebuilt Notes
 
-My personal study notes for the ISC2 Certified in Cybersecurity (CC) exam, aligned with the domain refresh effective September 1, 2026.
+These notes are organized around the ISC2 CC Certification Exam Outline
+effective September 1, 2026.
 
-## Exam Domains
+## Domains
 
-| Domain | Weight |
-|---|---:|
-| Security Principles | 24% |
-| Security Governance | 17.3% |
-| Identity and Access Management (IAM) Concepts | 20% |
-| Networking and Cloud Security Concepts | 21.3% |
-| Security Operations and Incident Response | 17.3% |
+1.  Security Principles --- 24%
+2.  Security Governance --- 17.3%
+3.  Identity and Access Management (IAM) Concepts --- 20%
+4.  Networking and Cloud Security Concepts --- 21.3%
+5.  Security Operations and Incident Response --- 17.3%
 
-## Notes
+## How to use these notes
 
-- [Domain 1 — Security Principles](domain-01-security-principles.md)
-- [Domain 2 — Security Governance](domain-02-security-governance.md)
-- [Domain 3 — IAM Concepts](domain-03-iam.md)
-- [Domain 4 — Networking and Cloud Security Concepts](domain-04-networking-cloud.md)
-- [Domain 5 — Security Operations and Incident Response](domain-05-security-operations-ir.md)
+Use the notes for understanding and active recall, not as a guarantee of
+a passing score.
 
-## Official Resources
+For each domain: 1. Read a small section. 2. Close the notes. 3. Explain
+the concept from memory. 4. Answer the Active Recall questions. 5.
+Revisit missed concepts. 6. Use practice questions to test application
+and scenario reasoning.
 
-- [ISC2 CC Exam Outline](https://www.isc2.org/certifications/cc/cc-certification-exam-outline)
-- [ISC2 CC Self-Study Resources](https://www.isc2.org/certifications/cc/cc-self-study-resources)
-
-This is an independent study project and is not affiliated with or endorsed by ISC2. ISC2 trademarks and official materials belong to ISC2.
+The official exam outline determines scope. Existing ISC2 training is
+retained where it provides useful explanation of current objectives.
