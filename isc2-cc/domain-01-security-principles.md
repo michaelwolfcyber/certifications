@@ -1,564 +1,326 @@
 ---
-description: Domain 1 --- Security Principles
+description: 'After completing this domain you need to be able to:'
 ---
 
-# Domain 1 --- Security Principles
+# Domain 1 — Security Principles
 
-**Exam weight: 24%**\
-**Current exam outline effective: September 1, 2026**
+* Discuss the foundational concepts of cybersecurity principles.
+* Recognize foundational security concepts of information assurance.&#x20;
+* Define risk management terminology and summarize the process.
+* Relate risk management to personal or proffesional practices.&#x20;
+* Classify types of security controls.&#x20;
+* Distinguish between policies, procedures and standards, regulations and laws.&#x20;
+* Demonstrate the relationship among governance elements.
+* Analyze appropriate outcomes according to the canons of the ISC2 Code of Ethics when given examples.&#x20;
+* Practice the terminology and review security principles.&#x20;
 
-## 2026 Exam Objectives
+**KEY TOPICS:**&#x20;
 
-### 1.1 Understand cybersecurity concepts
+* Identity Assurance
+* Privacy Control Mechanisms
+* Safeguarding Data
+* Strategic Risk Management&#x20;
 
--   Confidentiality
--   Integrity
--   Availability
--   Authentication, Authorization, Accounting (AAA)
--   Non-repudiation
--   Privacy
+**Exam weight: 24%**
 
-### 1.2 Understand risk management concepts
+## 1.1 Cybersecurity Concepts
 
--   Risk management lifecycle
--   Risk management processes
+### Confidentiality
 
-### 1.3 Understand governance concepts
+Confidentiality means preventing unauthorized people or systems from accessing information.
 
--   Regulations and laws
--   Frameworks and guidelines
--   Policies
--   Standards
--   Procedures
+**Examples**
 
-### 1.4 Understand cybersecurity controls
+* Access controls
+* Encryption
+* Data classification
+* Need-to-know access
 
--   Technical controls
--   Administrative controls
--   Physical controls
+### Integrity
 
-### 1.5 Maintain professional and ethical conduct
+Integrity means protecting information from unauthorized modification or destruction.
 
--   Professional code of conduct
--   Due care and due diligence
--   ISC2 Code of Ethics
+**Examples**
 
-------------------------------------------------------------------------
+* Hashing
+* Digital signatures
+* File integrity monitoring
+* Change controls
 
-# 1.1 Cybersecurity Concepts
+### Availability
 
-## CIA Triad
+Availability means authorized users can access systems and information when needed.
 
-The **CIA Triad** is a foundation of information security.
+**Examples**
 
-  -----------------------------------------------------------------------
-  Principle               Meaning                 Examples
-  ----------------------- ----------------------- -----------------------
-  **Confidentiality**     Prevent unauthorized    Access controls,
-                          access or disclosure    encryption,
-                                                  classification,
-                                                  need-to-know
+* Redundancy
+* Backups
+* Failover
+* Disaster recovery
+* Load balancing
 
-  **Integrity**           Prevent unauthorized    Hashing, digital
-                          modification or         signatures, integrity
-                          destruction             monitoring, change
-                                                  controls
+### Authentication, Authorization, and Accounting (AAA)
 
-  **Availability**        Ensure authorized       Redundancy, backups,
-                          access when needed      failover, disaster
-                                                  recovery, load
-                                                  balancing
-  -----------------------------------------------------------------------
+#### **Authentication:** Who are you?
 
-**Remember:**\
-Confidentiality = prevent unauthorized access\
-Integrity = prevent unauthorized changes\
-Availability = access when needed
+* Authentication is the process of validating your identity.
 
-------------------------------------------------------------------------
+&#x20; There are three common methods of authentication:
 
-## Assets
+1. Something you know: Passwords or passphrases.
+2. Something you have: Tokens, memory cards, smart cards.
+3. Something you are: Biometrics, measurable characteristics.&#x20;
 
-An **asset** is something of value that needs protection.
+#### **Authorization:** What are you allowed to do?
 
-Examples: - Information - Hardware - Software - Systems - People -
-Reputation
 
-------------------------------------------------------------------------
 
-## Threats
+#### **Accounting:** What did you do?
 
-A **threat** is a circumstance or event with the potential to adversely
-affect an organization, its assets, individuals, or other entities.
+Do not confuse authentication with authorization.
 
-Threats can involve: - Unauthorized access - Disclosure - Destruction -
-Modification - Denial of service
+### Non-repudiation
 
-### Common Threat Actors
+Non-repudiation provides evidence that helps prevent someone from credibly denying an action or transaction.
 
--   **Insiders** --- trusted individuals who may act deliberately or
-    accidentally
--   **Outside individuals or informal groups** --- external attackers
--   **Nonpolitical formal entities** --- competitors or cybercriminal
-    groups
--   **Political formal entities** --- nation-states, terrorists, or
-    hacktivists
--   **Intelligence/information gatherers**
--   **Technology** --- bots and artificial intelligence can also be
-    involved in threats
+Common technologies include digital signatures and audit records.
 
-### Threat Actor
+### Privacy
 
-A **threat actor** is an individual or group that attempts to exploit a
-vulnerability.
+Privacy is the right of an individual to control the distribution of information about themselves.&#x20;
 
-### Threat Vector
+Ex: Not wanting to let Amazon see what you see in a different app like instagram via cookies.
 
-A **threat vector** is the means by which a threat actor carries out an
-objective.
+***
 
-**Threat actor = who**\
-**Threat vector = how**
+## 1.1 AI Security Context — Current ISC2 2026 Guidance
 
-------------------------------------------------------------------------
+ISC2 explicitly integrates foundational AI concepts across the CC domains.
 
-## Vulnerability
+For Domain 1, understand the basic security implications of AI systems:
 
-A **vulnerability** is a weakness in an information system, security
-procedure, internal control, or implementation that could be exploited.
+- **Confidentiality:** protect sensitive AI training data, prompts, outputs, and other information.
+- **Integrity:** protect AI data and models from unauthorized modification, including the risk of **model poisoning**.
+- **Availability:** ensure AI-enabled services remain available when needed.
+- **AAA:** apply authentication, authorization, and accounting to AI users, bots, and AI-enabled actions.
+- **Non-repudiation:** maintain traceability for AI-generated actions where appropriate.
+- **Privacy:** protect personal and sensitive information used by or processed by AI systems.
+- **Controls:** AI systems can require technical, administrative, and physical controls.
+- **Governance:** AI use remains subject to organizational policies, legal requirements, risk decisions, due care, and due diligence.
 
-Examples: - Unpatched software - Weak passwords - Misconfigured
-systems - Missing security controls
+### Exam-level takeaway
 
-**Threat = potential danger**\
-**Vulnerability = weakness**\
-**Threat actor = who exploits it**\
-**Threat vector = how they do it**
+You do **not** need advanced machine-learning knowledge for CC. Think:
 
-------------------------------------------------------------------------
+**AI + CIA + AAA + privacy + governance + controls**
 
-## Risk
+> **Source note:** This is current ISC2 2026 guidance expanding the concise 1.1–1.5 outline bullets; it is not a separate Domain 1 sub-objective.
 
-Risk is a possible event or condition that can negatively affect an
-organization.
+***
+
+## 1.2 Risk Management Concepts
+
+Information Assurance and Cybersecurity are very involved with Risk Management.&#x20;
+
+The level of security required depends on the level of risk the entity is ready to accept.&#x20;
+
+### Risk
+
+Risk is the possibility that a threat will exploit a vulnerability and cause harm.
 
 A useful conceptual model is:
 
 **Risk ≈ Likelihood × Impact**
 
-### Likelihood
+#### **Example of Risks:**
 
-The probability that a threat will be capable of exploiting a
-vulnerability.
+* Cyber Attacks such as malware.
+* Social Engineering.
+* Denial of Service.
+* Other situations such as fire or natural disasters.&#x20;
 
-### Impact
-
-The magnitude of harm that could result.
-
-------------------------------------------------------------------------
-
-## Authentication, Authorization, and Accounting (AAA)
-
-### Authentication --- Who are you?
-
-Authentication verifies the identity of a user, device, or system.
-
-### Authentication Factors
-
-1.  **Something you know** --- password, PIN, passphrase
-2.  **Something you have** --- token, smart card, security key
-3.  **Something you are** --- biometric characteristic
-
-### Single-Factor Authentication
-
-Uses one authentication factor.
-
-### Multi-Factor Authentication (MFA)
-
-Uses two or more **different** authentication factors.
-
-> Two passwords are still one factor because both are something you
-> know.
-
-### Token
-
-A physical object a user possesses and controls that can be used for
-authentication.
-
-### Authorization --- What are you allowed to do?
-
-Authorization determines what an authenticated identity is permitted to
-access or perform.
-
-### Accounting --- What did you do?
-
-Accounting records and tracks user or system activity.
-
-Examples: - Login records - Audit logs - File access logs - System
-activity
-
-**Authentication = identity**\
-**Authorization = permissions**\
-**Accounting = activity**
-
-------------------------------------------------------------------------
-
-## Non-Repudiation
-
-**Non-repudiation** provides evidence that helps prevent someone from
-credibly denying an action.
-
-Examples: - Digital signatures - Audit records
-
-------------------------------------------------------------------------
-
-## Privacy
-
-Privacy concerns an individual's ability to control the distribution and
-use of information about themselves.
-
-### Personally Identifiable Information (PII)
-
-Information that identifies or can be linked to an individual.
-
-Examples can include: - Name - Social Security number - Date/place of
-birth - Biometrics - Medical information - Educational information -
-Financial information - Employment information
-
-### Protected Health Information (PHI)
-
-Information relating to health status, healthcare provision, or payment
-for healthcare as defined by HIPAA.
-
-### Sensitivity
-
-The importance assigned to information by its owner for determining the
-level of protection it requires.
-
-------------------------------------------------------------------------
-
-## Data Integrity
-
-Data integrity means information is maintained with: - Completeness -
-Accuracy - Internal consistency - Usefulness for its purpose
-
-## System Integrity
-
-A system has integrity when it performs its intended function without
-unauthorized manipulation.
-
-## Encryption
-
-Encryption converts information into a form intended to prevent
-unauthorized parties from understanding it.
-
-------------------------------------------------------------------------
-
-# 1.2 Risk Management Concepts
-
-## Risk Management
-
-Risk management is the process of identifying, evaluating, treating, and
-monitoring threats and risks.
-
-Security decisions should consider the amount of risk an organization is
-willing to accept.
-
-## Risk Identification
-
-Organizations identify risks in order to understand what could affect
-assets, operations, people, or objectives.
-
-Employees at different levels can identify risks.
-
-## Risk Assessment
-
-Risk assessment involves identifying, analyzing, estimating, and
-prioritizing risks.
-
-It can consider risks to: - Operations - Mission and functions - Image
-and reputation - Assets - Individuals - Other organizations - The nation
-
-Risk assessment considers threats, vulnerabilities, and controls.
-
-### Qualitative Risk Analysis
-
-Uses descriptive categories.
-
-Examples: - Low - Medium - High
-
-**Qualitative = descriptive**
-
-### Quantitative Risk Analysis
-
-Uses numerical values for likelihood and impact, often including
-statistical probabilities or monetary values.
-
-**Quantitative = numerical**
-
-## Risk Prioritization
-
-Risk can be prioritized using likelihood and impact.
-
-  Likelihood   Impact   General relationship
-  ------------ -------- ----------------------
-  Low          Low      Lower
-  Low          High     Higher
-  High         Low      Higher
-  High         High     Highest
-
-## Risk Treatment
-
-### Accept
-
-Accept the risk and continue the activity.
-
-### Avoid
-
-Do not perform the activity creating the risk.
-
-### Mitigate
-
-Implement controls to reduce likelihood and/or impact.
-
-### Transfer
-
-Use another party to take on some of the financial or operational
-consequences of the risk.
-
-**Accept = live with it**\
-**Avoid = don't do it**\
-**Mitigate = reduce it**\
-**Transfer = shift consequences**
-
-## Risk Tolerance
-
-**Risk tolerance** is the level of risk an organization is willing to
-assume to achieve a desired result.
-
-## Risk Management Lifecycle
+### Risk Management Lifecycle
 
 Know the basic flow:
 
-1.  **Identify** risk
-2.  **Assess/analyze** risk
-3.  **Treat/respond** to risk
-4.  **Monitor/review** risk
+1. Identify risk
+2. Assess/analyze risk
+3. Treat/respond to risk
+4. Monitor and review
 
-------------------------------------------------------------------------
+### Risk Treatment
 
-# 1.3 Governance Concepts
+Common approaches include:
 
-## Governance
+* **Mitigate:** Reduce likelihood or impact.
+* **Transfer:** Shift some financial or operational consequences to another party.
+* **Avoid:** Stop the activity creating the risk.
+* **Accept:** Acknowledge the risk and continue.
 
-Governance is how an organization is directed, managed, and overseen,
-including how decisions are made.
+### Risk Tolerance
 
-## Policies
+Risk tolerance describes how much risk an organization is willing to accept.
 
-Policies provide high-level organizational direction.
+### Risk Priorities
 
-**Policy = direction**
+Risk decisions should consider factors such as:
 
-## Standards
+* Business impact
+* Likelihood
+* Asset importance
+* Threat exposure
+* Regulatory requirements
 
-Standards provide defined requirements that support policies and
-procedures.
+***
 
-**Standard = requirement**
+## 1.3 Governance Concepts
 
-## Procedures
+### Regulations and Laws
 
-Procedures provide detailed steps for completing a task.
+Legal and regulatory requirements establish obligations an organization must follow.
 
-**Procedure = how**
+### Frameworks and Guidelines
 
-## Regulations and Laws
+Frameworks provide structured approaches for managing cybersecurity.
 
-Regulations and laws establish external requirements that organizations
-may be legally required to follow.
+### Policies
 
-**Regulation/law = external legal requirement**
+High-level management direction describing what the organization requires.
 
-## Frameworks and Guidelines
+### Standards
 
-**Frameworks** provide structured approaches for managing cybersecurity
-and risk.
+Specific mandatory requirements that support a policy.
 
-**Guidelines** provide recommendations or direction and are not
-necessarily mandatory.
+### Procedures
 
-### Important Organizations
+Step-by-step instructions for carrying out a task.
 
-**NIST** --- U.S. organization involved in standards and cybersecurity
-guidance.
+**Easy distinction:**
 
-**ISO** --- develops international standards, including information and
-communications technology standards.
+Policy = what/why\
+Standard = required rule\
+Procedure = how
 
-**IETF** --- develops Internet standards and protocols.
+***
 
-**IEEE** --- develops standards for telecommunications, computing, and
-related fields.
+## 1.4 Cybersecurity Controls
 
-### Common Regulations/Laws
+### Technical Controls
 
-**GDPR** --- European Union regulation concerning data protection and
-privacy.
+Technology-based protections.
 
-**HIPAA** --- U.S. healthcare legislation addressing healthcare
-information and privacy, among other requirements.
+Examples:
 
-### Governance Relationship
+* Firewalls
+* Encryption
+* MFA
+* IDS/IPS
 
-A useful conceptual distinction is:
+### Administrative Controls
 
-**Policy → Standard → Procedure**
+Management and organizational protections.
 
--   Policy = what/why
--   Standard = specific requirement
--   Procedure = how
+Examples:
 
-> The exact hierarchy among laws, regulations, standards, policies, and
-> procedures can vary by context. Focus on the function of each element
-> rather than memorizing an absolute hierarchy.
+* Policies
+* Training
+* Risk assessments
+* Procedures
 
-------------------------------------------------------------------------
+### Physical Controls
 
-# 1.4 Cybersecurity Controls
+Physical protections.
 
-Security controls are safeguards or countermeasures used to protect
-systems and information.
+Examples:
 
-## Physical Controls
+* Locks
+* Guards
+* Cameras
+* Fences
+* Badge systems
 
-Tangible protections.
+***
 
-Examples: - Walls - Fences - Guards - Locks - Badge readers - Cameras
+## 1.5 Professional and Ethical Conduct
 
-## Technical Controls
-
-Technology-based controls implemented through hardware, software, or
-firmware.
-
-Examples: - Firewalls - Encryption - MFA - IDS/IPS - Access control
-systems
-
-## Administrative Controls
-
-Management and organizational controls directed at people and processes.
-
-Examples: - Policies - Training - Risk assessments - Procedures -
-Security guidelines
-
-**Physical = tangible**\
-**Technical = technology**\
-**Administrative = management/people**
-
-------------------------------------------------------------------------
-
-# 1.5 Professional and Ethical Conduct
-
-## Professional Code of Conduct
-
-Cybersecurity professionals should act responsibly, ethically, legally,
-and competently.
-
-## Due Care
+### Due Care
 
 Taking reasonable steps to protect people, systems, and information.
 
-## Due Diligence
+### Due Diligence
 
-Continuously investigating, evaluating, and maintaining security
-practices.
+Continuously investigating, evaluating, and maintaining security practices.
 
-**Due care = reasonable protection**\
-**Due diligence = ongoing effort**
+### Professional Conduct
 
-------------------------------------------------------------------------
+Cybersecurity professionals should act responsibly, protect information, follow applicable requirements, and avoid actions that cause unnecessary harm.
 
-## ISC2 Code of Ethics
+### ISC2 Code of Ethics
 
-### Preamble
+IT Professionals are expected to be honorable, honest, just and responsible within legal conduct.&#x20;
 
-The safety and welfare of society and the common good, duty to our
-principles, and duty to each other require adherence to high ethical
-standards.
+ISC2 Code of Ethics Preamble:&#x20;
 
-Strict adherence to the Code is a condition of ISC2 certification.
+* The safety and welfare of society and the common good, duty to our principles and duty to each other require that we adhere and be seen to adhere to the highest ethical standards of behavior.&#x20;
+* Therefore, strict adherence to this code is a condition of certification.&#x20;
 
-### Four Canons
+ISC2 Code of Ethics Canons:&#x20;
 
-#### 1. Protect Society
+* Protect society, the common good, necessary public trust, confidence and infrastructure.&#x20;
+* Act honorably, honestly, justly, responsibly and legally.&#x20;
+* Provide diligent and competent service to principles.&#x20;
+* Advance and protect the profession.&#x20;
 
-Protect society, the common good, necessary public trust and confidence,
-and infrastructure.
+***
 
-#### 2. Act Honorably
+## Quick Recall
 
-Act honorably, honestly, justly, responsibly, and legally.
+* CIA = Confidentiality, Integrity, Availability
+* Asset = Something in need of protection
+* A vulnerability = A gap or weakness in protection&#x20;
+* A threat = Something or someone that aims to exploit vulnerability.&#x20;
+* Authentication = identity
+* Authorization = permissions
+* Accounting = activity
+* Risk = likelihood and impact
+* Policy = direction
+* Standard = requirement
+* Procedure = instructions
+* Technical = technology
+* Administrative = management
+* Physical = environment
+* Due care = reasonable protection
+* Due diligence = ongoing effort
 
-#### 3. Provide Diligent and Competent Service
 
-Provide diligent and competent service to principals.
+---
 
-#### 4. Advance and Protect the Profession
+# Exam Objective Checklist
 
-Advance and protect the cybersecurity profession.
-
-------------------------------------------------------------------------
-
-# Domain 1 Quick Recall
-
-  Term                     Remember
-  ------------------------ --------------------------------------------------
-  Confidentiality          Prevent unauthorized access
-  Integrity                Prevent unauthorized modification
-  Availability             Access when needed
-  Authentication           Who are you?
-  Authorization            What can you do?
-  Accounting               What did you do?
-  MFA                      Two or more different factors
-  Non-repudiation          Evidence against denying an action
-  Asset                    Something valuable needing protection
-  Threat                   Potential danger
-  Threat actor             Who
-  Threat vector            How
-  Vulnerability            Weakness
-  Risk                     Potential negative impact
-  Qualitative              Descriptive
-  Quantitative             Numerical
-  Accept                   Live with risk
-  Avoid                    Don't perform activity
-  Mitigate                 Reduce risk
-  Transfer                 Shift consequences
-  Tolerance                Risk level the organization is willing to assume
-  Physical control         Tangible
-  Technical control        Technology
-  Administrative control   Management/people
-  Policy                   Direction
-  Standard                 Requirement
-  Procedure                How
-  Due care                 Reasonable protection
-  Due diligence            Ongoing effort
-
-------------------------------------------------------------------------
-
-# Active Recall
-
-1.  Explain confidentiality, integrity, and availability.
-2.  What is the difference between a threat and a vulnerability?
-3.  What is the difference between a threat actor and a threat vector?
-4.  Explain authentication, authorization, and accounting.
-5.  What makes MFA multi-factor?
-6.  What is non-repudiation?
-7.  What is PII? What is PHI?
-8.  Explain qualitative versus quantitative risk analysis.
-9.  Explain accept, avoid, mitigate, and transfer.
-10. What is risk tolerance?
-11. Explain the risk management lifecycle.
-12. Distinguish policy, standard, and procedure.
-13. Distinguish physical, technical, and administrative controls.
-14. Explain due care versus due diligence.
-15. State the four ISC2 Code of Ethics canons.
+- [ ] **1.1 Cybersecurity concepts**
+  - [ ] Confidentiality
+  - [ ] Integrity
+  - [ ] Availability
+  - [ ] AAA
+  - [ ] Non-repudiation
+  - [ ] Privacy
+  - [ ] Foundational AI security implications
+- [ ] **1.2 Risk management concepts**
+  - [ ] Risk management lifecycle
+  - [ ] Risk identification, assessment, treatment, monitoring
+  - [ ] Risk priorities and tolerance
+- [ ] **1.3 Governance concepts**
+  - [ ] Regulations and laws
+  - [ ] Frameworks and guidelines
+  - [ ] Policies
+  - [ ] Standards
+  - [ ] Procedures
+- [ ] **1.4 Cybersecurity controls**
+  - [ ] Technical
+  - [ ] Administrative
+  - [ ] Physical
+- [ ] **1.5 Professional and ethical conduct**
+  - [ ] Professional code of conduct
+  - [ ] Due care
+  - [ ] Due diligence
+  - [ ] ISC2 Code of Ethics
