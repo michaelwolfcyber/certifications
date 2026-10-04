@@ -1,56 +1,185 @@
-# certifications
+# Cybersecurity Certification & Education Portfolio
 
-Documenting my certification progress toward DoD cybersecurity roles — cleared contractor and government cyber operations. Roadmap aligned to DoD 8140.
+This repository documents my progression through Computer Science, IT, cybersecurity certifications, graduate cybersecurity education, military technical experience, and hands-on security projects.
 
-***
+The objective is to build a technically strong cybersecurity career focused on DoD and defense-sector opportunities.
+
+## About
+
+I am a Computer Science graduate building a career in cybersecurity with a focus on:
+
+- Cyber defense
+- Security operations
+- Network security
+- Vulnerability management
+- Penetration testing
+- Security engineering
+- DoD cybersecurity
+
+My background includes a B.S. in Computer Science, IT and Linux certifications, a DoD Secret clearance, technical projects, and continued cybersecurity education.
 
 ## Education
 
-| Degree                                                        | Institution                  | Status                 |
-| ------------------------------------------------------------- | ---------------------------- | ---------------------- |
-| [B.S. Computer Science](education/wgu-bs-computer-science.md) | Western Governors University | In Progress — Aug 2026 |
-| M.S. Artificial Intelligence and Machine Learning             | Western Governors University | Planned                |
+### Completed
 
-***
+- **B.S. Computer Science — Western Governors University**
 
-## Earned
+### Planned
 
-| Certification                                                      | Issuer                       | Date         | Cert Number   | Expires         |
-| ------------------------------------------------------------------ | ---------------------------- | ------------ | ------------- | --------------- |
-| [LPI Linux Essentials](linux-essentials.md)                        | Linux Professional Institute | May 25, 2026 | LPI000692291  | Does not expire |
-| [ITIL 4 Foundation in IT Service Management](itil-4-foundation.md) | PeopleCert                   | June 3, 2026 | GR671889308MS | June 4, 2029    |
+- **M.S. Cybersecurity and Information Assurance — Western Governors University**
 
-***
+## Certifications
 
-## In Progress
+### Completed
 
-| Certification                       | Issuer  | Exam    | DoD 8140 Role              |
-| ----------------------------------- | ------- | ------- | -------------------------- |
-| [CompTIA Security+](security-plus/) | CompTIA | SY0-701 | IAT Level II / IAM Level I |
+- **ITIL 4 Foundation**
+- **Linux Essentials**
+- **Google Data Analytics Certificate**
 
-***
+### In Progress
 
-## Roadmap
+- **ISC2 Certified in Cybersecurity (CC)**
+- **CompTIA Security+**
 
-| Certification                     | Issuer              | DoD 8140 Role               | Status  |
-| --------------------------------- | ------------------- | --------------------------- | ------- |
-| AWS Cloud Practitioner            | Amazon Web Services | Cloud Baseline              | Planned |
-| CompTIA CySA+                     | CompTIA             | CSSP Analyst                | Planned |
-| AWS Solutions Architect Associate | Amazon Web Services | Cloud / SecOps              | Planned |
-| PNPT                              | TCM Security        | Red Team / Pen Tester       | Planned |
-| OSCP                              | Offensive Security  | CSSP Infrastructure Support | Planned |
-| AWS Security Specialty            | Amazon Web Services | Cloud Security Advanced     | Planned |
+### Planned
 
-***
+- **M.S. Cybersecurity and Information Assurance — WGU**
+- **CompTIA CySA+**
+- **CompTIA PenTest+**
+- **AWS Cloud Practitioner**
 
-## Verification
+### Advanced
 
-* LPI Linux Essentials: [lpi.org/v/LPI000692291/fbhuqub8uz](https://lpi.org/v/LPI000692291/fbhuqub8uz)
-* ITIL 4 Foundation: PeopleCert candidate number 9980086122358702
+- **CISSP**
 
-***
+## Security Clearance
 
-## Related
+- **DoD Secret Clearance**
 
-* [mikelobocyber](https://github.com/mikelobocyber/mikelobocyber) — profile and projects
-* [lobo-homelab](https://github.com/mikelobocyber/lobo-homelab) — Proxmox homelab with Wazuh, Kali, and GOAD
+## Military / DoD Development
+
+Building Army technical experience in communications, networking, systems, troubleshooting, and enterprise IT as a foundation for professional cybersecurity work.
+
+I also use the DoD Cyber Workforce Framework (DCWF / DoD 8140) to understand cybersecurity work roles and qualification pathways.
+
+## Technical Skills
+
+### Programming
+
+- Python
+- C++
+- Bash
+
+### Operating Systems
+
+- Linux
+- Windows
+
+### Networking & Security
+
+- Nmap
+- Wireshark
+- Network fundamentals
+- Security fundamentals
+- Vulnerability assessment
+- Security monitoring
+
+### Infrastructure
+
+- Virtualization
+- Proxmox
+- Kali Linux
+- Linux servers
+- Homelab environments
+
+## Security Projects
+
+- Password Strength Checker
+- Port Scanner
+- File Integrity Monitor
+- Network reconnaissance labs
+- Vulnerability assessment labs
+- Defensive security labs
+- Penetration-testing labs
+- Security automation
+
+## Career Roadmap
+
+The overall progression is:
+
+```text
+B.S. Computer Science
+        |
+        v
+ITIL 4 + Linux Essentials
+        |
+        v
+DoD Secret Clearance
+        |
+        v
+ISC2 CC
+        |
+        v
+WGU M.S. Cybersecurity
+        |
+        +----------------+
+        |                |
+        v                v
+    Security+       Army Technical
+        |             Experience
+        |                |
+        +-------+--------+
+                |
+                v
+              CySA+
+                |
+                v
+            PenTest+
+                |
+                v
+     Professional Cybersecurity
+            Experience
+                |
+                v
+      Cyber Defense / Security
+       Engineering / Offense
+                |
+                v
+              CISSP
+```
+
+[View the detailed roadmap](./_roadmap/roadmap.md)
+
+## Repository Structure
+
+```text
+certifications-main/
+├── README.md
+├── SUMMARY.md
+├── _roadmap/
+│   └── roadmap.md
+├── education/
+├── isc2-cc/
+├── itil-4-foundation/
+├── linux-essentials/
+└── security-plus/
+```
+
+## Professional Objective
+
+Combine:
+
+- Computer Science education
+- IT and Linux foundations
+- Cybersecurity certifications
+- Graduate cybersecurity education
+- DoD clearance
+- Army technical experience
+- Hands-on security projects
+- Professional cybersecurity experience
+
+into a technical cybersecurity career in the DoD and defense sector.
+
+---
+
+**Learn → Build → Document → Apply → Improve**

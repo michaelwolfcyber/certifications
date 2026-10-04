@@ -1,15 +1,59 @@
-# Table of contents
+# Certification & Education Summary
 
-* [certifications](README.md)
-* [ISC2 Certified in Cybersecurity (CC) — 2026](isc2-cc/README.md)
-  * [Domain 1 — Security Principles](isc2-cc/domain-01-security-principles.md)
-  * [Domain 2 — Security Governance](isc2-cc/domain-02-security-governance.md)
-  * [Domain 3 — Identity and Access Management (IAM) Concepts](isc2-cc/domain-03-iam.md)
-  * [Domain 4 — Networking and Cloud Security Concepts](isc2-cc/domain-04-networking-cloud.md)
-  * [Domain 5 — Security Operations and Incident Response](isc2-cc/domain-05-security-operations-ir.md)
-* [ITIL 4 Foundation in IT Service Management](itil-4-foundation.md)
-* [LPI Linux Essentials](linux-essentials.md)
-* [CompTIA Security+](security-plus/README.md)
-  * [Security+ Study Notes (SY0-701)](security-plus/notes.md)
-* [education](education/README.md)
-  * [B.S. Computer Science — Western Governors University](education/wgu-bs-computer-science.md)
+## Education
+
+- **B.S. Computer Science — Western Governors University — Complete**
+- **M.S. Cybersecurity and Information Assurance — WGU — Planned**
+
+## Completed Certifications
+
+- **ITIL 4 Foundation**
+- **Linux Essentials**
+- **Google Data Analytics Certificate**
+
+## Current Certifications
+
+- **ISC2 Certified in Cybersecurity (CC) — In Progress**
+- **CompTIA Security+ — In Progress**
+
+## Planned Certifications
+
+- **CompTIA CySA+**
+- **CompTIA PenTest+**
+- **AWS Cloud Practitioner**
+- **CISSP — Advanced career credential**
+
+## Professional Foundation
+
+- B.S. Computer Science
+- DoD Secret Clearance
+- ITIL 4 Foundation
+- Linux Essentials
+- Google Data Analytics Certificate
+- Python, C++, Java, Rust, Bash
+- Linux and Windows
+- Networking and security fundamentals
+- SIEM and detection engineering
+- Cloud security monitoring
+- Hands-on cybersecurity projects
+
+## Military / DoD Development
+
+Building Army technical experience in communications, networking, systems, troubleshooting, and enterprise IT as a foundation for professional cybersecurity work.
+
+## Portfolio Projects
+
+- Machine Learning Log Anomaly Detection
+- CloudTrail Anomaly Alerter
+- SniffSnorf
+- File Integrity Monitor
+- Port Scanner
+- Password Strength Checker
+- Homelab detection engineering
+- Authorized web security labs
+
+## Career Direction
+
+**Computer Science → IT Foundation → Cybersecurity Certifications → Graduate Cybersecurity Education → DoD Technical Experience → Professional Cybersecurity → Security Engineering / Cyber Defense / Offensive Security**
+
+[View the full career roadmap](./_roadmap/roadmap.md)
