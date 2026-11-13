@@ -16,7 +16,7 @@ The primary direction is DoD and defense-sector cybersecurity, with emphasis on 
 
 Core foundation in programming, algorithms, operating systems, networking, databases, software engineering, and computer security.
 
-### Planned
+### Incoming — December 2026
 
 **M.S. Cybersecurity and Information Assurance — Western Governors University**
 
@@ -49,13 +49,15 @@ Establishes a broad cybersecurity foundation across security principles, governa
 **CompTIA Security+**  
 Builds a broad security baseline across threats, vulnerabilities, architecture, IAM, operations, risk, and incident response.
 
-### Planned
+### Included in the WGU M.S. program pathway
 
 **CompTIA CySA+**  
-Develops defensive capabilities in security monitoring, threat detection, vulnerability management, and incident response.
+A program-aligned certification target focused on defensive security analysis, monitoring, threat detection, vulnerability management, and incident response.
 
 **CompTIA PenTest+**  
-Develops offensive security capabilities in reconnaissance, vulnerability assessment, exploitation concepts, web and network testing, and reporting.
+A program-aligned certification target focused on penetration-testing methodology, reconnaissance, vulnerability assessment, exploitation concepts, and reporting.
+
+### Also Planned
 
 **AWS Cloud Practitioner**  
 Provides a foundational cloud credential supporting continued development in cloud security.
@@ -203,14 +205,15 @@ DoD Secret Clearance
         +----------+-----------+
                    |
                    v
-                 CySA+
-                   |
-                   v
-               PenTest+
-                   |
-                   v
         WGU M.S. Cybersecurity
                    |
+          +--------+--------+
+          |                 |
+          v                 v
+        CySA+            PenTest+
+     (program pathway)
+          |                 |
+          +--------+--------+
                    v
      Professional Cybersecurity
               Experience
