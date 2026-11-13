@@ -24,7 +24,7 @@ My background includes a B.S. in Computer Science, IT and Linux certifications, 
 
 - **B.S. Computer Science — Western Governors University**
 
-### Planned
+### Incoming — December 2026
 
 - **M.S. Cybersecurity and Information Assurance — Western Governors University**
 
@@ -43,7 +43,6 @@ My background includes a B.S. in Computer Science, IT and Linux certifications, 
 
 ### Planned
 
-- **M.S. Cybersecurity and Information Assurance — WGU**
 - **CompTIA CySA+**
 - **CompTIA PenTest+**
 - **AWS Cloud Practitioner**
