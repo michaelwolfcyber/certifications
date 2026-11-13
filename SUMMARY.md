@@ -3,7 +3,7 @@
 ## Education
 
 - **B.S. Computer Science — Western Governors University — Complete**
-- **M.S. Cybersecurity and Information Assurance — WGU — Planned**
+- **M.S. Cybersecurity and Information Assurance — WGU — Incoming December 2026**
 
 ## Completed Certifications
 
@@ -43,13 +43,13 @@ Building Army technical experience in communications, networking, systems, troub
 
 ## Portfolio Projects
 
-- Machine Learning Log Anomaly Detection
+- HDFS Log Anomaly Detection
 - CloudTrail Anomaly Alerter
+- Lobo Cybersecurity Homelab
 - SniffSnorf
+- Fenrir
 - File Integrity Monitor
-- Port Scanner
-- Password Strength Checker
-- Homelab detection engineering
+- UCSAT
 - Authorized web security labs
 
 ## Career Direction

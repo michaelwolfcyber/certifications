@@ -53,3 +53,28 @@ site:
           path: security-plus
           content:
             directory: ./security-plus
+    - type: section
+      key: section-knowledge-library
+      title: Knowledge Library
+      path: knowledge-library
+      description: Reusable technical concepts, authorized labs, and curated references.
+      icon: book-open
+      children:
+        - type: space
+          key: space-technical-knowledge
+          title: Technical Knowledge
+          path: technical-knowledge
+          content:
+            directory: ./technical-knowledge
+        - type: space
+          key: space-labs
+          title: Security Labs
+          path: labs
+          content:
+            directory: ./labs
+        - type: space
+          key: space-resources
+          title: Resources
+          path: resources
+          content:
+            directory: ./resources

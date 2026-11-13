@@ -4,52 +4,51 @@ This repository documents my progression through Computer Science, IT, cybersecu
 
 The objective is to build a technically strong cybersecurity career focused on DoD and defense-sector opportunities.
 
+## How this repository is organized
+
+This is the **public, curated layer** of a larger private Obsidian knowledge system.
+
+- **Certifications** — reviewed notes organized by certification, with separate study-notes and practice-exam areas.
+- **Technical Knowledge** — reusable explanations that apply across certifications and real-world work.
+- **Labs** — authorized, reproducible hands-on exercises and lessons learned.
+- **Resources** — authoritative references and documentation.
+- **Education and Career Roadmap** — academic and professional development.
+
+The private Obsidian vault contains working Cornell notes, drafts, flashcards, study logs, knowledge gaps, and personal reflections. Those private materials are not synchronized wholesale to this public repository. Only reviewed, original, portfolio-ready content is published here.
+
 ## About
 
 I am a Computer Science graduate building a career in cybersecurity with a focus on:
 
-- Cyber defense
-- Security operations
-- Network security
-- Vulnerability management
-- Penetration testing
-- Security engineering
+- Cyber defense and security operations
+- Network security and vulnerability management
+- Penetration testing and security engineering
 - DoD cybersecurity
-
-My background includes a B.S. in Computer Science, IT and Linux certifications, a DoD Secret clearance, technical projects, and continued cybersecurity education.
 
 ## Education
 
 ### Completed
-
 - **B.S. Computer Science — Western Governors University**
 
 ### Incoming — December 2026
-
 - **M.S. Cybersecurity and Information Assurance — Western Governors University**
 
 ## Certifications
 
 ### Completed
-
 - **ITIL 4 Foundation**
 - **Linux Essentials**
 - **Google Data Analytics Certificate**
 
-### In Progress
-
+### In progress
 - **ISC2 Certified in Cybersecurity (CC)**
 - **CompTIA Security+**
 
 ### Planned
-
 - **CompTIA CySA+**
 - **CompTIA PenTest+**
 - **AWS Cloud Practitioner**
-
-### Advanced
-
-- **CISSP**
+- **CISSP** — advanced career credential
 
 ## Security Clearance
 
@@ -64,18 +63,16 @@ I also use the DoD Cyber Workforce Framework (DCWF / DoD 8140) to understand cyb
 ## Technical Skills
 
 ### Programming
-
 - Python
 - C++
+- Java
 - Bash
 
 ### Operating Systems
-
 - Linux
 - Windows
 
 ### Networking & Security
-
 - Nmap
 - Wireshark
 - Network fundamentals
@@ -84,7 +81,6 @@ I also use the DoD Cyber Workforce Framework (DCWF / DoD 8140) to understand cyb
 - Security monitoring
 
 ### Infrastructure
-
 - Virtualization
 - Proxmox
 - Kali Linux
@@ -103,8 +99,6 @@ I also use the DoD Cyber Workforce Framework (DCWF / DoD 8140) to understand cyb
 
 ## Career Roadmap
 
-The overall progression is:
-
 ```text
 B.S. Computer Science
         |
@@ -115,7 +109,7 @@ ITIL 4 + Linux Essentials
 DoD Secret Clearance
         |
         v
-ISC2 CC
+ISC2 CC + Security+
         |
         v
 WGU M.S. Cybersecurity
@@ -123,13 +117,10 @@ WGU M.S. Cybersecurity
         +----------------+
         |                |
         v                v
-    Security+       Army Technical
+    CySA+           Army Technical
         |             Experience
         |                |
         +-------+--------+
-                |
-                v
-              CySA+
                 |
                 v
             PenTest+
@@ -151,32 +142,28 @@ WGU M.S. Cybersecurity
 ## Repository Structure
 
 ```text
-certifications-main/
+certifications/
 ├── README.md
 ├── SUMMARY.md
+├── gitbook-docs.yaml
 ├── _roadmap/
-│   └── roadmap.md
 ├── education/
 ├── isc2-cc/
-├── itil-4-foundation/
-├── linux-essentials/
-└── security-plus/
+│   ├── README.md
+│   ├── study-notes/
+│   └── practice-exams/
+├── security-plus/
+│   ├── README.md
+│   ├── study-notes/
+│   └── practice-exams/
+├── technical-knowledge/
+├── labs/
+└── resources/
 ```
 
 ## Professional Objective
 
-Combine:
-
-- Computer Science education
-- IT and Linux foundations
-- Cybersecurity certifications
-- Graduate cybersecurity education
-- DoD clearance
-- Army technical experience
-- Hands-on security projects
-- Professional cybersecurity experience
-
-into a technical cybersecurity career in the DoD and defense sector.
+Combine Computer Science education, IT and Linux foundations, cybersecurity certifications, graduate cybersecurity education, DoD clearance, Army technical experience, hands-on projects, and professional experience into a technical cybersecurity career in the DoD and defense sector.
 
 ---
 
