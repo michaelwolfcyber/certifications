@@ -94,14 +94,13 @@ I also use the DoD Cyber Workforce Framework (DCWF / DoD 8140) to understand cyb
 
 ## Security Projects
 
-- Password Strength Checker
-- Port Scanner
-- File Integrity Monitor
-- Network reconnaissance labs
-- Vulnerability assessment labs
-- Defensive security labs
-- Penetration-testing labs
-- Security automation
+- [HDFS Log Anomaly Detection](https://github.com/michaelwolfcyber/hdfs-log-anomaly-detection)
+- [CloudTrail Anomaly Alerter](https://github.com/michaelwolfcyber/cloudtrail-anomaly-alerter)
+- [Lobo Cybersecurity Homelab](https://github.com/michaelwolfcyber/lobo-homelab)
+- [SniffSnorf — Rust Port Scanner](https://github.com/michaelwolfcyber/SniffSnorf)
+- [Fenrir — Password Hash Cracker](https://github.com/michaelwolfcyber/Fenrir)
+- [File Integrity Monitor](https://github.com/michaelwolfcyber/file-integrity-monitor)
+- [UCSAT — Unit Communications Security Assessment Tool](https://github.com/michaelwolfcyber/UCSAT-UnitCommunicationsSecurityAssessmentTool-)
 
 ## Career Roadmap
 
