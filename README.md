@@ -44,11 +44,15 @@ I am a Computer Science graduate building a career in cybersecurity with a focus
 - **ISC2 Certified in Cybersecurity (CC)**
 - **CompTIA Security+**
 
-### Planned
+### Included in the WGU M.S. program pathway
 - **CompTIA CySA+**
 - **CompTIA PenTest+**
+
+### Also planned
 - **AWS Cloud Practitioner**
-- **CISSP** — advanced career credential
+
+### Advanced
+- **CISSP** — pursue after gaining the required professional experience
 
 ## Security Clearance
 
@@ -112,18 +116,13 @@ DoD Secret Clearance
 ISC2 CC + Security+
         |
         v
-WGU M.S. Cybersecurity
+WGU M.S. Cybersecurity & Information Assurance
         |
-        +----------------+
-        |                |
-        v                v
-    CySA+           Army Technical
-        |             Experience
-        |                |
-        +-------+--------+
-                |
-                v
-            PenTest+
+        +-------------------------+
+        |                         |
+        v                         v
+  CySA+ + PenTest+          Army Technical
+ (program pathway)           Experience
                 |
                 v
      Professional Cybersecurity
