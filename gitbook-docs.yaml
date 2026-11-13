@@ -1,0 +1,33 @@
+# GitBook site structure for michaelwolfcyber/certifications
+version: 1
+
+site:
+  title: Cybersecurity Certification & Education Portfolio
+  structure:
+    - title: Career Roadmap
+      path: /roadmap
+      content:
+        directory: _roadmap
+    - title: Education
+      path: /education
+      content:
+        directory: education
+    - title: Certifications
+      path: /certifications
+      children:
+        - title: ISC2 Certified in Cybersecurity (CC)
+          path: /certifications/isc2-cc
+          content:
+            directory: isc2-cc
+        - title: ITIL 4 Foundation
+          path: /certifications/itil-4-foundation
+          content:
+            directory: itil-4-foundation
+        - title: Linux Essentials
+          path: /certifications/linux-essentials
+          content:
+            directory: linux-essentials
+        - title: CompTIA Security+
+          path: /certifications/security-plus
+          content:
+            directory: security-plus
