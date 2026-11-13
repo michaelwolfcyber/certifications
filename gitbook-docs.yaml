@@ -1,33 +1,55 @@
-# GitBook site structure for michaelwolfcyber/certifications
-version: 1
-
+$schema: https://api.gitbook.com/gitbook-docs.yaml
 site:
   title: Cybersecurity Certification & Education Portfolio
   structure:
-    - title: Career Roadmap
-      path: /roadmap
-      content:
-        directory: _roadmap
-    - title: Education
-      path: /education
-      content:
-        directory: education
-    - title: Certifications
-      path: /certifications
+    - type: section
+      key: section-career-development
+      title: Career Development
+      path: career-development
+      description: Academic background and the professional cybersecurity development roadmap.
+      icon: graduation-cap
       children:
-        - title: ISC2 Certified in Cybersecurity (CC)
-          path: /certifications/isc2-cc
+        - type: space
+          key: space-career-roadmap
+          title: Career Roadmap
+          path: career-roadmap
           content:
-            directory: isc2-cc
-        - title: ITIL 4 Foundation
-          path: /certifications/itil-4-foundation
+            directory: ./_roadmap
+        - type: space
+          key: space-education
+          title: Education
+          path: education
+          default: true
           content:
-            directory: itil-4-foundation
-        - title: Linux Essentials
-          path: /certifications/linux-essentials
+            directory: ./education/wgu-bs-computer-science
+    - type: section
+      key: section-certifications
+      title: Certifications
+      path: certifications
+      description: Study notes and supporting documentation for completed and in-progress certifications.
+      icon: award
+      children:
+        - type: space
+          key: space-isc2-cc
+          title: ISC2 Certified in Cybersecurity (CC)
+          path: isc2-cc
           content:
-            directory: linux-essentials
-        - title: CompTIA Security+
-          path: /certifications/security-plus
+            directory: ./isc2-cc
+        - type: space
+          key: space-itil-4-foundation
+          title: ITIL 4 Foundation
+          path: itil-4-foundation
           content:
-            directory: security-plus
+            directory: ./itil-4-foundation
+        - type: space
+          key: space-linux-essentials
+          title: Linux Essentials
+          path: linux-essentials
+          content:
+            directory: ./linux-essentials
+        - type: space
+          key: space-security-plus
+          title: CompTIA Security+
+          path: security-plus
+          content:
+            directory: ./security-plus
